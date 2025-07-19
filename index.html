@@ -3,42 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graduation Invitation - Chisom & Adaeze Okeke</title>
+    <title>Graduation Invitation - Naomi Okoye</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!-- Handwritten font -->
+    <!-- Google Fonts for Poppins with fallback -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fallback in case Google Fonts fails -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        @font-face {
+            font-family: 'PoppinsFallback';
+            src: local('Arial'), local('Helvetica'), local('sans-serif');
+        }
+    </style>
 </head>
 <body>
-    <div class="invitation-card">
-        <div class="header">
-            <img src="image/grad.jpg" alt="Graduation Cap" class="cap-icon">
-            <h1 class="handwritten">Graduation Ceremony</h1>
-            <p>With hearts full of pride and gratitude, we joyfully invite you to celebrate the graduation ceremony of our beloved children</p>
+    <div class="invitation">
+        <header>
+            <img src="image/grad.jpg" alt="Graduation Cap" class="logo">
+        </header>
+        <h2>GRADUATION CEREMONY</h2>
+        <div class="content">
+            <p>You are cordially invited to celebrate a momentous occasion in our lives — the graduation of</p>
+            <h3>Naomi Okoye</h3>
+            <p>📅 Date: 25th July 2025</p>
+            <p>Join us as we honor her hard work, dedication, and bright future ahead.</p>
         </div>
-        <div class="graduate-names">
-            <h2 class="handwritten">Chisom Okeke & Adaeze Okeke</h2>
-            <p>as they mark this important milestone in their academic journey.</p>
+        <div class="details">
+    
+        <div class="graduates">
+            <img src="image/naomi.jpg" alt="Graduates Celebrating" class="graduate-img">
         </div>
-        <div class="photo-container">
-            <div class="photo">
-                <img src="image/chisom.jpeg" alt="Chisom Okeke" class="graduate-photo">
-                <p>Chisom Okeke</p>
-            </div>
-            <div class="photo">
-                <img src="image/adaeze.jpeg" alt="Adaeze Okeke" class="graduate-photo">
-                <p>Adaeze Okeke</p>
-            </div>
-        </div>
-        <div class="event-details">
-            <p><strong>📅 Date:</strong> 23rd July, 2025</p>
-            <p><strong>🕒 Time:</strong> 10:00 AM</p>
-            <p><strong>📍 Venue:</strong> 14 Romachukwu Street, One Day</p>
-        </div>
-        <div class="footer">
-            <p>Your presence will make this moment even more special.</p>
-            <p>Come share in our joy as we honor their hard work and achievements.</p>
-            <p>With love,<br>The Okeke Family</p>
-        </div>
-        <div class="decoration"></div>
+        <footer>
+            <p>SEE YOU THERE!</p>
+
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
